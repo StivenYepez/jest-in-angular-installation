@@ -27,17 +27,17 @@ import 'jest-preset-angular/setup-jest';
     "setupFilesAfterEnv": [
       "<rootDir>/setup-jest.ts"
     ],
-    "globalSetup": "jest-preset-angular/global-setup"
-  },
-  "collectCoverage": true,
-    "collectCoverageFrom": [
-      "./src/**"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "lines": 90
-      }
-    }
+    "globalSetup": "jest-preset-angular/global-setup",
+      "collectCoverage": true,
+        "collectCoverageFrom": [
+          "./src/**"
+        ],
+        "coverageThreshold": {
+          "global": {
+            "lines": 90
+          }
+        }
+  }
 ```
 5. Configurar JEST en tsconfig.json y tsconfig.spec.json
 ```tsconfig.json
